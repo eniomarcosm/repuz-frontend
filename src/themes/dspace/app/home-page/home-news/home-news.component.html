@@ -1,0 +1,61 @@
+<div class="background-image-container">
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="d-flex flex-wrap">
+        <div>
+          <h1 class="display-3">REPÓSITORIO DA UNIVERSIDADE ZAMBEZE</h1>
+          <p class="lead">
+            O Repositório Institucional da Universidade Zambeze é um instrumento
+            dedicado ao armazenamento da memória Institucional e compreende
+            conteúdos como:
+          </p>
+        </div>
+      </div>
+      <ul>
+        <li>Trabalhos Ciêntificos (Monografias, Teses e Dissertações)</li>
+        <li>Resultados de Pesquisas Ciênticas</li>
+        <li>Menutas de Pedidos</li>
+      </ul>
+      <p>
+        Visite a página oficial da
+        <a href="https://unizambeze.ac.mz" target="_blank"
+          >Universidade Zambeze
+        </a>
+        para mais informações.
+      </p>
+      <!-- <p>Contas de teste</p>
+      <ul>
+        <li>Demo Site Administrator = dspacedemo+admin@gmail.com</li>
+        <li>Demo Community Administrator = dspacedemo+commadmin@gmail.com</li>
+        <li>Demo Collection Administrator = dspacedemo+colladmin@gmail.com</li>
+        <li>Demo Submitter = dspacedemo+submit@gmail.com</li>
+      </ul> -->
+    </div>
+  </div>
+  <picture class="background-image">
+    <source
+      type="image/webp"
+      srcset="
+        assets/dspace/images/banner.webp      2000w,
+        assets/dspace/images/banner-half.webp 1200w,
+        assets/dspace/images/banner-tall.webp  768w
+      "
+    />
+    <source
+      type="image/jpg"
+      srcset="
+        assets/dspace/images/banner.jpg      2000w,
+        assets/dspace/images/banner-half.jpg 1200w,
+        assets/dspace/images/banner-tall.jpg  768w
+      "
+    />
+    <img
+      alt=""
+      [src]="'assets/dspace/images/banner.jpg'"
+    /><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+  </picture>
+  <small class="credits"
+    >Photo by
+    <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small
+  >
+</div>
